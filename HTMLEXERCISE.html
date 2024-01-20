@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02.Exercise</title>
+</head>
+<body>
+    <style>
+    header{text-align: center;}
+    footer{text-align: center;}
+    figure {text-align: center;}
+    </style>
+    <header>Profile</header>
+    
+
+    <figure>
+    <img src="C:\Users\PC1\git\New repos\226840742_WebApp/asda.jpg" alt="Profile Pic">
+    <figcaption>Fig.1 - A Selfie Pic</figcaption>
+    </figure>
+    <h2>User Registration Form</h2>
+
+    <form action="process_form.php"method="post">
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name" required minlength="6" pattern="[a-zA-Z]+">
+        <nav>
+
+        </nav>
+        <br>
+
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password" required minlength="6">
+        <nav>
+
+        </nav>
+
+        <br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="Male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <nav>
+
+        </nav>
+        <br>
+
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I accept the terms and conditions</label>
+        <nav>
+
+        </nav>
+        <br>
+
+        <input type="submit" value="Submit">
+
+        <br>
+
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            th, td {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+            }
+
+            th {
+                background-color: #f2f2f2;
+            }
+
+        </style>
+        <head>
+            <body>
+                <h2>User Information Table</h2>
+
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>City</th>
+                    </tr>
+                    <tr>
+                        <td>John</td>
+                        <td>25</td>
+                        <td>New York</td>
+                    </tr>
+                    <tr>
+                        <td>Jane</td>
+                        <td>30</td>
+                        <td>Los Angeles</td>
+                    </tr>
+                </table>
+            </body>
+
+        </head>
+        <nav>
+            
+        </nav>
+        <h1>Audio</h1>
+        <audio controls>
+        <source src="C:\Users\PC1\git\New repos\226840742_WebApp/Phonk.mp3" type="audio/mp3">
+        </audio>
+
+        <br>
+        <h1>Video</h1>
+        <video width="320" height="240" controls>
+            <source src="C:\Users\PC1\git\New repos\226840742_WebApp/Bark.mp4" type="video/mp4">
+        </video> 
+
+        <br>
+        <footer>Profile Page</footer>
+    </form>
+    
+</body>
+</html>
