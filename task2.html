@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes</title>
+</head>
+<body>
+    <style type="text/css">
+        .background{
+            background: lightgreen;
+        }
+        .head {
+            background: lightcoral;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-right: 30px;
+            position: relative;
+            top: 10px;
+            left: 30px;
+        }
+        .eyeball {
+            background: lightblue;
+            border-color: lightgreen;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            position: absolute;
+            top: 5px;
+            left: 8px;
+        }
+        .pupil {
+            color: red;
+            position: relative;
+            top: -2px;
+            left: 8px;
+            
+        }
+        .beak {
+            color: orange;
+            top: 7px;
+            left: 29px;
+            position: relative;
+            
+        }
+        .body {
+            background: pink;
+            width: 45px;
+            height: 45px;
+            position: relative;
+            border-radius: 50%;
+        }
+        .wing {
+            color: indigo;
+            top: 5px;
+            position: relative;
+
+            
+        }
+        .drumstick {
+            color: blue;
+            display: inline-block;
+            margin-right: 5px;
+            top: -9px;
+            left: 6px;
+            position: relative;
+        }
+        .drumstick-right {
+            color: green;
+            display: inline-block;
+        }
+    </style>
+    <div class="canvas background">
+        <div class="air background"></div>
+        <div class="head">
+            <div class="eyeball">
+                <span class="pupil">&middot;</span>
+            </div>
+            <div class="beak">
+                <strong>&gt;</strong>
+            </div>
+        </div>
+        <div class="body">
+            <div class="wing">
+                <strong>&lt;</strong>
+            </div>
+        </div>
+    
+    <div class="drumsticks">
+        <div class="drumstick">|
+            <br> />/|
+        </div>
+        <div class="drumstick drumstick-right">|
+            <br> />/|
+        </div>
+    </div>
+</div>
+</body>
+</html>
